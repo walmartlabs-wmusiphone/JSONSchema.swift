@@ -414,7 +414,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		197D572C1EBD065C008CF1D1 /* QADeployment */ = {
+		1919901B1EBD0DF10075AD2B /* QADeployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -433,13 +433,19 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -448,15 +454,16 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = QADeployment;
 		};
-		197D572D1EBD065C008CF1D1 /* QADeployment */ = {
+		1919901C1EBD0DF10075AD2B /* QADeployment */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27B640CA1AAB1080005C8641 /* UniversalFramework_Framework.xcconfig */;
 			buildSettings = {
@@ -474,15 +481,20 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = QADeployment;
 		};
-		197D572E1EBD065C008CF1D1 /* QADeployment */ = {
+		1919901D1EBD0DF10075AD2B /* QADeployment */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27B640CB1AAB1080005C8641 /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocode.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -661,8 +673,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27CF7EFD1A9B9EDA0063FDE4 /* Debug */,
+				1919901B1EBD0DF10075AD2B /* QADeployment */,
 				27CF7EFE1A9B9EDA0063FDE4 /* Release */,
-				197D572C1EBD065C008CF1D1 /* QADeployment */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -671,8 +683,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27CF7F001A9B9EDA0063FDE4 /* Debug */,
+				1919901C1EBD0DF10075AD2B /* QADeployment */,
 				27CF7F011A9B9EDA0063FDE4 /* Release */,
-				197D572D1EBD065C008CF1D1 /* QADeployment */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -681,8 +693,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27CF7F031A9B9EDA0063FDE4 /* Debug */,
+				1919901D1EBD0DF10075AD2B /* QADeployment */,
 				27CF7F041A9B9EDA0063FDE4 /* Release */,
-				197D572E1EBD065C008CF1D1 /* QADeployment */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

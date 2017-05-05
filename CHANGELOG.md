@@ -1,3 +1,7 @@
+# [2.0.2](https://github.com/walmartlabs-wmusiphone/JSONSchema.swift/releases/tag/v2.0.2)
+
+- Add `QADeployment` build config
+
 # [2.0.0](https://github.com/walmartlabs-wmusiphone/JSONSchema.swift/releases/tag/v2.0.0)
 
 - Resolve Xcode 8.3 warnings

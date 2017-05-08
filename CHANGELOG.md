@@ -1,3 +1,7 @@
+# [3.0.0](https://github.com/walmartlabs-wmusiphone/JSONSchema.swift/releases/tag/v3.0.0)
+
+- Change base SDK to iOS.
+
 # [2.0.2](https://github.com/walmartlabs-wmusiphone/JSONSchema.swift/releases/tag/v2.0.2)
 
 - Add `QADeployment` build config

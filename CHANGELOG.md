@@ -1,3 +1,7 @@
+# [4.0.0](https://github.com/walmartlabs-wmusiphone/JSONSchema.swift/releases/tag/v4.0.0)
+
+- Update to Swift 4
+
 # [3.0.0](https://github.com/walmartlabs-wmusiphone/JSONSchema.swift/releases/tag/v3.0.0)
 
 - Change base SDK to iOS.

@@ -1,3 +1,7 @@
+# [5.0.0](https://github.com/walmartlabs-wmusiphone/JSONSchema.swift/releases/tag/v5.0.0)
+
+- Update to Swift 5
+
 # [4.0.0](https://github.com/walmartlabs-wmusiphone/JSONSchema.swift/releases/tag/v4.0.0)
 
 - Update to Swift 4
